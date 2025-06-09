@@ -25,7 +25,7 @@ Disguises encrypted files as .jpg/.mp3 for stealth security.
 - Password strength checker
 - Secure message vault
 
-## 👥 Team ByteGuardians
+## 👥 Team CodePhantom
 - Kiyara (Encryption, Frontend)
 - Janhvi(Decryption, Frontend)
 
