@@ -18,5 +18,5 @@ A beginner-friendly file encryption tool using C++ with Phantom Mode — disguis
 - assets/
 
 ## 👥 Team
-- Kiyara — Encryption + Frontend
-- [Teammate] — Decryption + Documentation
+- Kiyara — Encryption + 
+- Janhvi — Decryption +
