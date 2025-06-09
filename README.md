@@ -1,19 +1,22 @@
-# CodePhantom
-# CodePhantom 🔐💨
+# CodePhantom 🔐
 
-**A lightweight C++ encryption tool with Phantom Mode**  
-Encrypts files using XOR and disguises them as .jpg/.mp3
+A beginner-friendly file encryption tool using C++ with Phantom Mode — disguising encrypted files as .jpg or .mp3.
 
-## Features
-- Offline encryption & decryption
-- Phantom Mode disguises file extensions
-- Clean HTML/CSS frontend
+## 🔧 Features
+- XOR password-based encryption
+- Phantom Mode disguise
+- Lightweight & offline
+- HTML/CSS interface for interaction
 
-## Tech Stack
-- C++
-- HTML/CSS
-- GitHub
+## 📁 File Structure
+- encrypt.cpp
+- decrypt.cpp
+- index.html
+- style.css
+- readme.md
+- logs.txt
+- assets/
 
-## Usage
-Run:
-
+## 👥 Team
+- Kiyara — Encryption + Frontend
+- [Teammate] — Decryption + Documentation
