@@ -1,31 +1,27 @@
-# 🔐 CodePhantom – SecureX-Encryptor
+# 🔐CodePhantom
 
-**A beginner-friendly C++ encryption tool with Phantom Mode**  
-Disguises encrypted files as .jpg/.mp3 for stealth security.
+A simple C++-based file encryption and decryption tool with a clean frontend using HTML & CSS.
 
-## 🚀 Features
-- XOR-based file encryption & decryption using password
-- Phantom Mode: disguise encrypted files as images/music
-- Offline, lightweight, open-source
-- Simple HTML/CSS UI for ease of use
+## 💡 Features
+- Encrypt any file using XOR and password
+- Disguises encrypted files as .jpg, .mp3, etc.
+- Decrypt using the same password
+- Lightweight frontend for UI interaction
 
 ## 🛠️ Tech Stack
-- C++ (encryption, decryption)
-- HTML/CSS (frontend)
-- GitHub (version control)
+- C++
+- HTML
+- CSS
+- GitHub
 
-## 📂 How to Use
-1. Run `encrypt.exe` → Enter file, password, and disguise extension.
-2. Share disguised file securely.
-3. Run `decrypt.exe` → Enter disguised file & password to recover original file.
+## 👩‍💻 How to Run
+1. Compile encrypt.cpp → Run encrypt.exe
+2. Compile decrypt.cpp → Run decrypt.exe
+3. Open index.html in browser for UI
 
-## 🌐 Future Scope
-- GUI with file drag/drop
-- AES encryption upgrade
-- Password strength checker
-- Secure message vault
+## 🌐 Team CodePhantom
+- Kiyara [https://github.com/kiyara17777]  (Frontend, Encryption)
+- Janhvi [https://github.com/janhvi-crypto] (Frontend, Decryption)
 
-## 👥 Team CodePhantom
-- Kiyara (Encryption, Frontend)
-- Janhvi(Decryption, Frontend)
-
+## 📁 Assets
+Logo: /assets/logo.png
