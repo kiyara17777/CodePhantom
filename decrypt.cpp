@@ -1,28 +1,44 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <ctime>
+#include <cstring>
 using namespace std;
+
+void logActivity(const string& message) {
+    ofstream log("logs.txt", ios::app); 
+    if (log) {
+        time_t now = time(0);
+        char* dt = ctime(&now);
+        dt[strlen(dt) - 1] = '\0'; 
+        log << "[" << dt << "] " << message << endl;
+        log.close();
+    }
+}
 
 void xorDecrypt(const string& inputFile, const string& outputFile, const string& key) {
     ifstream in(inputFile, ios::binary);
     ofstream out(outputFile, ios::binary);
 
     if (!in || !out) {
-        cerr << "File error! Could not open files." << endl;
+        cerr << "[Error] Could not open files." << endl;
+        logActivity("[Error] Failed to open " + inputFile + " or " + outputFile);
         return;
     }
 
     char ch;
     int keyIndex = 0;
     while (in.get(ch)) {
-        ch ^= key[keyIndex];  // XOR decryption
+        ch ^= key[keyIndex];  
         out.put(ch);
         keyIndex = (keyIndex + 1) % key.length();
     }
 
     in.close();
     out.close();
-    cout << "✅ File decrypted successfully!" << endl;
+
+    cout << "[Success] File decrypted successfully as: " << outputFile << endl;
+    logActivity("[Decrypted] " + inputFile + " → " + outputFile);
 }
 
 int main() {
