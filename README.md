@@ -29,7 +29,9 @@ Logo: /assets/logo.png
 📸 Demo Screenshots
 
 ### 🔒 Encryption in CLI
+Encrypt files using password-based XOR encryption via terminal interface:
 ![CLI Screenshot](assets/cli-screenshot.png)
 
 ### 🌐 User Interface (HTML + CSS)
+Simple UI for users to interact with the tool (dark mode included): 
 ![UI Screenshot](assets/ui-screenshot.png)
