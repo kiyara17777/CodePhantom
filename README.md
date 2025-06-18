@@ -25,3 +25,11 @@ A simple C++-based file encryption and decryption tool with a clean frontend usi
 
 ## 📁 Assets
 Logo: /assets/logo.png
+
+📸 Demo Screenshots
+
+### 🔒 Encryption in CLI
+![CLI Screenshot](assets/cli-screenshot.png)
+
+### 🌐 User Interface (HTML + CSS)
+![UI Screenshot](assets/ui-screenshot.png)
