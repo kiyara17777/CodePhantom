@@ -29,7 +29,7 @@ Logo: /assets/logo.png
 📸 Demo Screenshots
 
 ### 🔒 Encryption in CLI
-Encrypt files using password-based XOR encryption via terminal interface:
+Encrypt AND Decrypt files using password-based XOR encryption via terminal interface:
 ![CLI Screenshot](assets/cli-screenshot.png)
 
 ### 🌐 User Interface (HTML + CSS)
